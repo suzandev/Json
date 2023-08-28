@@ -4,8 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSON START</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .post {
+        background-color: blueviolet;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 15px;
+      }
+    </style>
   </head>
   <body>
-    <h3>JSON Start</h3>
+    <h3 class="text-center my-16 text-2xl font-bold uppercase">JSON Start</h3>
+
+    <button
+      id="btn1"
+      class="px-4 py-2 bg-green-500 text-white rounded-md"
+      onclick="btn1Clicked()"
+    >
+      Button 1
+    </button>
+    <button
+      id="btn2"
+      class="px-4 py-2 bg-green-500 text-white rounded-md"
+      onclick="btn2Clicked()"
+    >
+      Button 2
+    </button>
+    <button id="btn3" class="px-4 py-2 bg-green-500 text-white rounded-md">
+      Button 3
+    </button>
+    <button id="btn4" class="px-4 py-2 bg-green-500 text-white rounded-md">
+      Button 4
+    </button>
+
+    <section id="section_container"></section>
+
+    <script src="./script/script.js"></script>
   </body>
 </html>
